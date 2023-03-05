@@ -15,7 +15,7 @@ axios.get('https://google.com')
 .then(res => a = res.data) 
 .catch(err => console.log(err))
  
-res.send(a)
+res.send('B' + a)
 
 
 })
